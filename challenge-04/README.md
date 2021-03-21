@@ -146,7 +146,7 @@ carro.mudarCor('verde musgo');
 carro.oberCor(); // verde musgo
 
 // Qual a marca e modelo do carro?
-carro.oberModelo(); // C4
+carro.oberMarcaModelo(); // C4
 
 // Adicione 2 pessoas no carro.
 carro.addPessoas(2); // Já temos 2 pessoas no carro!
@@ -158,7 +158,7 @@ carro.addPessoas(4); // Só cabem mais 3 pessoas!
 carro.addPessoas(3); // Já temos 5 pessoas no carro!
 
 // Tire 4 pessoas do carro.
-carro.quantidadePessoas -= 4;
+carro.addPessoas(-4); // Já temos 1 pessoas no carro!
 
 // Adicione 10 pessoas no carro.
 carro.addPessoas(10); // Só cabem mais 4 pessoas!
